@@ -473,4 +473,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+
 }
+
+.git:hover {
+  color: #003399;
+}
+
+h2, h3, a {font-family:Acme;}
