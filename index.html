@@ -10,21 +10,16 @@
     <meta name="author" content="">
 
     <title>Anand Moses- Full Stack Developer</title>
-
-    <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+  
+
 </head>
 
 <body>
@@ -40,13 +35,12 @@
 
       <div class=" text-center">
         <br>
-          <h2>Portfolio</h2>
+          <h2 class="type" style="display: inline;"></h2>
           <hr>
      </div>
 
         <div class="container-fluid">
             <div class= "row">
-
               <div class="col-sm-1"></div>
 
               <div class="col-sm-5" style="padding: 25px;">
@@ -191,7 +185,8 @@
 
 
 
-
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -205,6 +200,19 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".type").typed({
+                strings: [
+                    "Thank you for visiting",
+                    "Below are a few portfolio links:"
+                ],
+            })
+        })
+    </script>
 
 </body>
 
